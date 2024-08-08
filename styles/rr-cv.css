@@ -1,0 +1,139 @@
+:root{
+    --light_color: rgb(160, 175, 225);
+    --dark_color: rgb(25, 40, 105);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    text-wrap: wrap;
+}
+
+img{
+    width: 24px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: var(--light_color);
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+li{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--dark_color);
+    padding: 20px;
+    margin: 0;
+}
+
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+}
+
+.inner-left{
+    display: grid;
+    background-color: var(--dark_color);
+    color: white;
+    float: left;
+    width: 320px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.inner-right{
+    background-color: white;
+    float: right;
+    min-width: 320px;
+    max-width: 680px;
+    margin: 0 0 0 10px;
+    border: 2px solid var(--dark_color);
+    border-radius: 5px;
+}
+
+.pnlMe{
+    display: flex;
+    justify-content: center;
+}
+
+.imgMe{
+    width: 230px;
+    height: 230px;
+    left: 50%;
+    margin-top: 40px;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.lblMe{
+    color: var(--dark_color);
+    font-size: 59px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 20px;
+}
+
+.header{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-top: 40px;
+}
+
+.header-right{
+    color: var(--dark_color);
+    border-bottom: 1px solid var(--dark_color);
+}
+
+.major-pad{
+    margin-top: 40px;
+}
+
+.minor-pad{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    margin-top: 10px
+}
+
+.title{
+    font-size: 1.2rem;;
+    font-weight: bold;
+}
+
+.note{
+    font-size: 1rem;;
+    font-weight: 400;
+}
+
+.footer{
+    height: 20px;
+}
+
+.panel{
+    margin-left: 20px;
+    margin-right: 20px;
+}
