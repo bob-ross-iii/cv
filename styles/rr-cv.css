@@ -8,6 +8,7 @@ body{
     font-weight: 500;
     line-height: 25px;
     text-wrap: wrap;
+    margin-bottom: 5px;
 }
 
 img{
@@ -59,7 +60,7 @@ li{
     color: white;
     float: left;
     width: 320px;
-    margin: 0;
+    margin: 5px;
     border-radius: 5px;
 }
 
@@ -68,7 +69,7 @@ li{
     float: right;
     min-width: 320px;
     max-width: 680px;
-    margin: 0 0 0 10px;
+    margin: 5px;
     border: 2px solid var(--dark_color);
     border-radius: 5px;
 }
@@ -92,6 +93,7 @@ li{
     color: var(--dark_color);
     font-size: 59px;
     font-weight: bold;
+    font-variant: small-caps;
     line-height: 100%;
     margin-top: 20px;
 }
